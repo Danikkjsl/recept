@@ -1,0 +1,341 @@
+body {
+    
+    width: 100%;
+}
+.img-header{
+    font-size: 20px;
+        color: white;
+        position: relative;
+        left: 50px;
+        top: 10px;
+        width: 60px;
+        height: 60px;
+    
+}
+
+
+.h3-header{
+   position: absolute;
+    left: 300px;
+    top: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", sans-serif;
+}
+.h4-header{
+    position: absolute;
+    left: 500px;
+    top: 26px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.text-header2 {
+    text-align: center;
+    position: absolute;
+    right: 200px ;
+    
+    
+    color: white;
+    
+
+    
+}
+header{
+position: fixed;
+font-family: 'Inter';
+width: 100%;
+height: 80px;
+background: #344866;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+z-index: 100;
+top: 0px;
+transition: transform 0.2s ease-in-out;
+box-sizing: border-box;
+
+}
+
+header.hidden{
+    transform: translateY(-100%);
+
+
+}
+main{
+
+    position: relative;
+    width: 100%;
+    height: 3300px;
+    top: 30px;
+    background-color: #59606B;
+    
+    }
+
+.img-main{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to right, #000000ee, rgba(0, 0, 0, 0.267)), url("https://cdn.kodixauto.ru/media/image/6014060c8d2b4a0001a8b3fe") ;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.img-main2{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top: 1500px;
+    background: linear-gradient(to right, #000000bb, rgba(36, 35, 35, 0.267)), url(" https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/m-automobile/x6m/2023/bmw-x6-m-competition-mg-06.png") ;
+    background-position: center;
+    background-size: cover;
+   
+}
+.img-main3{
+    position: absolute;
+    width: 750px;
+    height: 400px;
+    top: 2600px;
+    left: 30px;
+    
+
+}
+
+
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.text-main{
+    position: absolute;
+    font-size: 35px;
+    
+    top: 150px;
+    left: 50px;
+    width: 700px;
+    color: aliceblue;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+
+}
+
+
+footer{
+    
+    background: #344866;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+}
+
+.insta{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 10px;
+}
+.telegram{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 250px;
+    top: 15px;
+}
+.wacap{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 500px;
+    top: 15px;
+}
+.instagram{
+    position: absolute;
+    color: #ffffff;
+    
+    top: 10px;
+    left: 60px;
+}
+
+.telegrame{
+    position: absolute;
+    color: #ffffff;
+    
+    top: 10px;
+    left: 300px;
+}
+.wacape{
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px ;
+    top: 5px;
+    left: 550px;
+}
+@media (orientation: portrait),(min-width: 320px){
+    .img-main{
+        position: absolute;
+    width: 100%;
+    height: 800px;
+    }
+}
+
+.block1 {
+    z-index: 20;
+    position: relative;
+    top: 1000px;
+    width: 260px;
+    height: 330px;
+    left: 100px;
+    background: #2f3444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.main-block{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: -60px;
+}
+.img1{
+    width: 200px;
+    height: 120px;
+    margin-top: 50px;
+    
+    
+    
+}
+
+.logo1{
+    position: relative;
+    width: 70px;
+    height: 50px;
+    margin-left: 10px ;
+    margin-bottom: 10px;
+}
+.h2-m{
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.block2 {
+    z-index: 20;
+    position: absolute;
+    top: 1000px;
+    width: 260px;
+    height: 333px;
+    left: 550px;
+    background: #2f3444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.main-block{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: -60px;
+}
+.img2{
+    width: 200px;
+    height: 110px;
+    margin-top: 50px;
+    
+    
+    
+}
+
+.logo1{
+    position: relative;
+    width: 70px;
+    height: 50px;
+    margin-left: 10px ;
+    margin-bottom: 10px;
+}
+.h2-m{
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+
+.block3 {
+    z-index: 20;
+    position: absolute;
+    top: 1000px;
+    width: 260px;
+    height: 333px;
+    left: 1000px;
+    background: #2f3444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.main-block{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: -60px;
+}
+.img3{
+    width: 240px;
+    height: 160px;
+    margin-top: 50px;
+    
+    
+    
+}
+
+.logo1{
+    position: relative;
+    width: 70px;
+    height: 50px;
+    margin-left: 10px ;
+    margin-bottom: 10px;
+}
+.h2-m{
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+
+
