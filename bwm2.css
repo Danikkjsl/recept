@@ -653,3 +653,15 @@ footer{
     font-size: 20px;
     position: relative;
 }
+
+.hidden{
+    opacity: 0;
+    
+    transition: all 1s;
+    }
+    
+    .show{
+    opacity: 1;
+    
+    
+    }
