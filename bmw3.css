@@ -81,7 +81,7 @@ main{
     position: absolute;
     width: 100%;
     height: 800px;
-    background: linear-gradient(to right, #000000ee, rgba(0, 0, 0, 0.267)), url("https://cdn.kodixauto.ru/media/image/6014060c8d2b4a0001a8b3fe") ;
+    background: linear-gradient(to right, #000000ee, rgba(0, 0, 0, 0.267)), url("https://www.bmw.az/content/dam/bmw/common/all-models/x-series/x5/2023/technical-data/bmw-x-series-x5-sp-desktop.jpg") ;
     background-position: center;
     background-size: cover;
     
@@ -653,3 +653,15 @@ footer{
     font-size: 20px;
     position: relative;
 }
+
+.hidden{
+    opacity: 0;
+    
+    transition: all 1s;
+    }
+    
+    .show{
+    opacity: 1;
+    
+    
+    }
